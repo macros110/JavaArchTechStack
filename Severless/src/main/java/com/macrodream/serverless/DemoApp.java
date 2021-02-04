@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import reactor.core.publisher.Flux;
 
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 @SpringBootApplication
 public class DemoApp {
@@ -18,6 +19,16 @@ public class DemoApp {
     @Bean
     public Function<String,String> lowercase(){
         return value-> value.toLowerCase();
+    }
+
+    @PollableSupplier(splittable = true)
+    public Supplier<Flux<String>> someSupplier() {
+        return () -> {
+            String v1 = String.valueOf(System.nanoTime());
+            String v2 = String.valueOf(System.nanoTime());
+            String v3 = String.valueOf(System.nanoTime());
+            return Flux.just(v1, v2, v3);
+        };
     }
 
     public static void main(String[] args) {

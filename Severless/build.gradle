@@ -53,5 +53,7 @@ dependencies {
     //此两个依赖才能实现FaaS
     compile group: 'org.springframework.cloud', name: 'spring-cloud-function-web', version: '3.0.12.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-function-web', version: '3.0.12.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-function-context', version: '3.0.12.RELEASE'
+
 
 }
