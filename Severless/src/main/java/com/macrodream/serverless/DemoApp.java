@@ -15,6 +15,11 @@ public class DemoApp {
         return flux -> flux.map(value -> value.toUpperCase());
     }
 
+    @Bean
+    public Function<String,String> lowercase(){
+        return value-> value.toLowerCase();
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(DemoApp.class, args);
     }
