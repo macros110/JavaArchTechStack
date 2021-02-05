@@ -1,4 +1,5 @@
 rootProject.name = 'JavaArchTechStack'
 include 'common'
 include 'Severless'
+include 'spring-framework-demo'
 

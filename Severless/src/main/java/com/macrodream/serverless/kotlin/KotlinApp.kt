@@ -22,7 +22,7 @@ open class KotlinApp {
         return  { println(it) }
     }
 }
-//Kotlin 运行不起来
+//Kotlin 可以运行
 fun main(args: Array<String>){
     SpringApplication.run(KotlinApp::class.java,*args)
 }
