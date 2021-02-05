@@ -12,8 +12,14 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot.experimental:spring-boot-thin-gradle-plugin:${wrapperVersion}")
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10")
+        classpath("org.jetbrains.kotlin:kotlin-noarg:1.4.10")
+        classpath("org.jetbrains.kotlin:kotlin-allopen:1.4.10")
+        classpath("org.springframework.cloud:spring-cloud-function-kotlin:3.0.12.RELEASE")
     }
 }
+
+
 
 plugins {
     id 'java'
@@ -22,7 +28,11 @@ plugins {
     id 'org.springframework.boot' version '2.4.2'
     id 'org.springframework.boot.experimental.thin-launcher' version '1.0.25.RELEASE'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+//    id 'kotlin' version '1.4.10'
+//    id 'kotlin-spring'
+//    id 'kotlon-spa'
 }
+
 
 group 'com.macrodream'
 version '1.0-SNAPSHOT'
@@ -54,6 +64,10 @@ dependencies {
     compile group: 'org.springframework.cloud', name: 'spring-cloud-function-web', version: '3.0.12.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-function-web', version: '3.0.12.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-function-context', version: '3.0.12.RELEASE'
-
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-function-kotlin', version: '3.0.12.RELEASE'
+    runtime group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.4.10'
+    compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jdk8', version: '1.4.10'
+    compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-kotlin', version: '2.11.2'
+    compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib', version: '1.4.10'
 
 }

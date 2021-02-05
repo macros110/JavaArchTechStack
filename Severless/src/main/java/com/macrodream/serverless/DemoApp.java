@@ -2,6 +2,7 @@ package com.macrodream.serverless;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.function.context.PollableBean;
 import org.springframework.context.annotation.Bean;
 import reactor.core.publisher.Flux;
 
@@ -20,8 +21,8 @@ public class DemoApp {
     public Function<String,String> lowercase(){
         return value-> value.toLowerCase();
     }
-
-    @PollableSupplier(splittable = true)
+    //Java 8 function support
+    @PollableBean(splittable = true)
     public Supplier<Flux<String>> someSupplier() {
         return () -> {
             String v1 = String.valueOf(System.nanoTime());
@@ -30,6 +31,7 @@ public class DemoApp {
             return Flux.just(v1, v2, v3);
         };
     }
+
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApp.class, args);
