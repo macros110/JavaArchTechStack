@@ -1,0 +1,18 @@
+com/macrodream/gudies/gs/restservie/RestServieApp.java
+ com.macrodream.gudies.gs.restservie.RestServieApp
+com/macrodream/gudies/gs/restservie/Greeting.java
+ com.macrodream.gudies.gs.restservie.Greeting
+com/macrodream/gudies/gs/restservie/GreetingController.java
+ com.macrodream.gudies.gs.restservie.GreetingController
+com/macrodream/gudies/gs/restservie/QuoteController.java
+ com.macrodream.gudies.gs.restservie.QuoteController
+com/macrodream/gudies/gs/restservie/Value.java
+ com.macrodream.gudies.gs.restservie.Value
+com/macrodream/gudies/gs/restservie/Quote.java
+ com.macrodream.gudies.gs.restservie.Quote
+com/macrodream/gudies/gs/consumingrest/Quote.java
+ com.macrodream.gudies.gs.consumingrest.Quote
+com/macrodream/gudies/gs/consumingrest/ConsumingRestApp.java
+ com.macrodream.gudies.gs.consumingrest.ConsumingRestApp
+com/macrodream/gudies/gs/consumingrest/Value.java
+ com.macrodream.gudies.gs.consumingrest.Value
