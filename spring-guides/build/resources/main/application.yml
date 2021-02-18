@@ -6,3 +6,7 @@ spring:
     multipart:
       max-file-size: 128KB
       max-request-size: 128KB
+  redis:
+    host: 127.0.0.1
+    password: 123456
+    port: 6379
