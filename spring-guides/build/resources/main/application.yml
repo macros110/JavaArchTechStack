@@ -10,3 +10,8 @@ spring:
     host: 127.0.0.1
     password: 123456
     port: 6379
+  neo4j:
+    url: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: Neo4j

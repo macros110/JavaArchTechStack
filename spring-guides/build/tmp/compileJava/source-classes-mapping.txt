@@ -1,5 +1,13 @@
+com/macrodream/gudies/gs/messagingredis/MessagingRedisApp.java
+ com.macrodream.gudies.gs.messagingredis.MessagingRedisApp
+com/macrodream/gudies/gs/messagingredis/Receiver.java
+ com.macrodream.gudies.gs.messagingredis.Receiver
 com/macrodream/gudies/gs/restservie/RestServieApp.java
  com.macrodream.gudies.gs.restservie.RestServieApp
+com/macrodream/gudies/gs/consumingrest/Value.java
+ com.macrodream.gudies.gs.consumingrest.Value
+com/macrodream/gudies/gs/restservie/GreetingController.java
+ com.macrodream.gudies.gs.restservie.GreetingController
 com/macrodream/gudies/gs/restservie/Value.java
  com.macrodream.gudies.gs.restservie.Value
 com/macrodream/gudies/gs/uploadingfiles/FileUploadController.java
@@ -24,13 +32,11 @@ com/macrodream/gudies/gs/restservie/Quote.java
  com.macrodream.gudies.gs.restservie.Quote
 com/macrodream/gudies/gs/uploadingfiles/storage/FileSystemStorageService.java
  com.macrodream.gudies.gs.uploadingfiles.storage.FileSystemStorageService
-com/macrodream/gudies/gs/consumingrest/Value.java
- com.macrodream.gudies.gs.consumingrest.Value
-com/macrodream/gudies/gs/restservie/GreetingController.java
- com.macrodream.gudies.gs.restservie.GreetingController
 com/macrodream/gudies/gs/uploadingfiles/storage/StorageService.java
  com.macrodream.gudies.gs.uploadingfiles.storage.StorageService
-com/macrodream/gudies/gs/messagingredis/Receiver.java
- com.macrodream.gudies.gs.messagingredis.Receiver
-com/macrodream/gudies/gs/messagingredis/MessagingRedisApp.java
- com.macrodream.gudies.gs.messagingredis.MessagingRedisApp
+com/macrodream/gudies/gs/accessingdataneo4j/PersonRepository.java
+ com.macrodream.gudies.gs.accessingdataneo4j.PersonRepository
+com/macrodream/gudies/gs/accessingdataneo4j/Person.java
+ com.macrodream.gudies.gs.accessingdataneo4j.Person
+com/macrodream/gudies/gs/accessingdataneo4j/AccessingDataNeo4jApp.java
+ com.macrodream.gudies.gs.accessingdataneo4j.AccessingDataNeo4jApp
