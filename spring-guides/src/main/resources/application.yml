@@ -1,6 +1,5 @@
 server:
   port: 8081
-
 spring:
   servlet:
     multipart:
@@ -15,3 +14,7 @@ spring:
     authentication:
       username: neo4j
       password: Neo4j
+management:
+  server:
+    port: 8082
+    address: 127.0.0.1
