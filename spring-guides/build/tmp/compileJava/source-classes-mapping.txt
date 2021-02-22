@@ -8,8 +8,8 @@ com/macrodream/gudies/gs/accessingdataneo4j/PersonRepository.java
  com.macrodream.gudies.gs.accessingdataneo4j.PersonRepository
 com/macrodream/gudies/gs/accessingdataneo4j/Person.java
  com.macrodream.gudies.gs.accessingdataneo4j.Person
-com/macrodream/gudies/gs/actuatorservice/HelloWorldController.java
- com.macrodream.gudies.gs.actuatorservice.HelloWorldController
+com/macrodream/gudies/gs/uploadingfiles/storage/StorageService.java
+ com.macrodream.gudies.gs.uploadingfiles.storage.StorageService
 com/macrodream/gudies/gs/restservie/Value.java
  com.macrodream.gudies.gs.restservie.Value
 com/macrodream/gudies/gs/uploadingfiles/FileUploadController.java
@@ -44,5 +44,5 @@ com/macrodream/gudies/gs/restservie/GreetingController.java
  com.macrodream.gudies.gs.restservie.GreetingController
 com/macrodream/gudies/gs/actuatorservice/ActuatorServiceApp.java
  com.macrodream.gudies.gs.actuatorservice.ActuatorServiceApp
-com/macrodream/gudies/gs/uploadingfiles/storage/StorageService.java
- com.macrodream.gudies.gs.uploadingfiles.storage.StorageService
+com/macrodream/gudies/gs/actuatorservice/HelloWorldController.java
+ com.macrodream.gudies.gs.actuatorservice.HelloWorldController

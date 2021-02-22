@@ -1,6 +1,8 @@
+com/macrodream/gudies/gs/uploadingfiles/storage/FileSystemStorageServiceTests.java
+ com.macrodream.gudies.gs.uploadingfiles.storage.FileSystemStorageServiceTests
+com/macrodream/gudies/gs/actuatorservice/HelloWorldAppTest.java
+ com.macrodream.gudies.gs.actuatorservice.HelloWorldAppTest
 com/macrodream/gudies/gs/uploadingfiles/FileUploadTests.java
  com.macrodream.gudies.gs.uploadingfiles.FileUploadTests
 com/macrodream/gudies/gs/uploadingfiles/FileUploadIntegrationTests.java
  com.macrodream.gudies.gs.uploadingfiles.FileUploadIntegrationTests
-com/macrodream/gudies/gs/uploadingfiles/storage/FileSystemStorageServiceTests.java
- com.macrodream.gudies.gs.uploadingfiles.storage.FileSystemStorageServiceTests
