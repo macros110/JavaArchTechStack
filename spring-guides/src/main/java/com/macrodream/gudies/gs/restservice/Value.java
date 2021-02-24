@@ -1,4 +1,4 @@
-package com.macrodream.gudies.gs.restservie;
+package com.macrodream.gudies.gs.restservice;
 
 public class Value {
     private final long id;

@@ -1,4 +1,4 @@
-package com.macrodream.gudies.gs.restservie;
+package com.macrodream.gudies.gs.restservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

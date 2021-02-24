@@ -1,4 +1,4 @@
-package com.macrodream.gudies.gs.restservie;
+package com.macrodream.gudies.gs.restservice;
 
 import java.util.concurrent.atomic.AtomicLong;
 
