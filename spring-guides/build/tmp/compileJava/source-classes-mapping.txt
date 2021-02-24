@@ -45,8 +45,8 @@ com/macrodream/gudies/gs/uploadingfiles/UploadFilesApp.java
  com.macrodream.gudies.gs.uploadingfiles.UploadFilesApp
 com/macrodream/gudies/gs/batchprocessing/BatchProcessingApp.java
  com.macrodream.gudies.gs.batchprocessing.BatchProcessingApp
-com/macrodream/gudies/gs/resthateoas/RestHateoasApp.java
- com.macrodream.gudies.gs.resthateoas.RestHateoasApp
+com/macrodream/gudies/gs/resthateoas/GreetingController.java
+ com.macrodream.gudies.gs.resthateoas.GreetingController
 com/macrodream/gudies/gs/restservice/GreetingController.java
  com.macrodream.gudies.gs.restservice.GreetingController
 com/macrodream/gudies/gs/restservice/QuoteController.java
@@ -61,5 +61,5 @@ com/macrodream/gudies/gs/restservice/RestServieApp.java
  com.macrodream.gudies.gs.restservice.RestServieApp
 com/macrodream/gudies/gs/restservice/Value.java
  com.macrodream.gudies.gs.restservice.Value
-com/macrodream/gudies/gs/resthateoas/GreetingController.java
- com.macrodream.gudies.gs.resthateoas.GreetingController
+com/macrodream/gudies/gs/resthateoas/RestHateoasApp.java
+ com.macrodream.gudies.gs.resthateoas.RestHateoasApp
