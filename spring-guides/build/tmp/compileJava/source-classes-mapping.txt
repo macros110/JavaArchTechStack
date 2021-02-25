@@ -6,35 +6,47 @@ com/macrodream/gudies/gs/accessingdataneo4j/PersonRepository.java
  com.macrodream.gudies.gs.accessingdataneo4j.PersonRepository
 com/macrodream/gudies/gs/accessingdataneo4j/Person.java
  com.macrodream.gudies.gs.accessingdataneo4j.Person
+com/macrodream/gudies/gs/restservice/Greeting.java
+ com.macrodream.gudies.gs.restservice.Greeting
+com/macrodream/gudies/gs/restservice/Quote.java
+ com.macrodream.gudies.gs.restservice.Quote
 com/macrodream/gudies/gs/actuatorservice/HelloWorldController.java
  com.macrodream.gudies.gs.actuatorservice.HelloWorldController
-com/macrodream/gudies/gs/accessingdataneo4j/AccessingDataNeo4jApp.java
- com.macrodream.gudies.gs.accessingdataneo4j.AccessingDataNeo4jApp
 com/macrodream/gudies/gs/uploadingfiles/storage/StorageFileNotFoundException.java
  com.macrodream.gudies.gs.uploadingfiles.storage.StorageFileNotFoundException
 com/macrodream/gudies/gs/actuatorservice/Greeting.java
  com.macrodream.gudies.gs.actuatorservice.Greeting
+com/macrodream/gudies/gs/restservice/Value.java
+ com.macrodream.gudies.gs.restservice.Value
+com/macrodream/gudies/gs/resthateoas/RestHateoasApp.java
+ com.macrodream.gudies.gs.resthateoas.RestHateoasApp
 com/macrodream/gudies/gs/uploadingfiles/storage/StorageProperties.java
  com.macrodream.gudies.gs.uploadingfiles.storage.StorageProperties
 com/macrodream/gudies/gs/consumingrest/Quote.java
  com.macrodream.gudies.gs.consumingrest.Quote
-com/macrodream/gudies/gs/batchprocessing/JobCompletionNotificationListener.java
- com.macrodream.gudies.gs.batchprocessing.JobCompletionNotificationListener
 com/macrodream/gudies/gs/consumingrest/ConsumingRestApp.java
  com.macrodream.gudies.gs.consumingrest.ConsumingRestApp
 com/macrodream/gudies/gs/batchprocessing/Person.java
  com.macrodream.gudies.gs.batchprocessing.Person
 com/macrodream/gudies/gs/consumingrest/Value.java
  com.macrodream.gudies.gs.consumingrest.Value
+com/macrodream/gudies/gs/restservice/RestServieApp.java
+ com.macrodream.gudies.gs.restservice.RestServieApp
+com/macrodream/gudies/gs/resthateoas/GreetingController.java
+ com.macrodream.gudies.gs.resthateoas.GreetingController
+com/macrodream/gudies/gs/restservice/GreetingController.java
+ com.macrodream.gudies.gs.restservice.GreetingController
+com/macrodream/gudies/gs/restservice/QuoteController.java
+ com.macrodream.gudies.gs.restservice.QuoteController
 com/macrodream/gudies/gs/batchprocessing/BatchConfiguration.java
  com.macrodream.gudies.gs.batchprocessing.BatchConfiguration
  com.macrodream.gudies.gs.batchprocessing.BatchConfiguration$1
-com/macrodream/gudies/gs/uploadingfiles/storage/FileSystemStorageService.java
- com.macrodream.gudies.gs.uploadingfiles.storage.FileSystemStorageService
+com/macrodream/gudies/gs/batchprocessing/JobCompletionNotificationListener.java
+ com.macrodream.gudies.gs.batchprocessing.JobCompletionNotificationListener
+com/macrodream/gudies/gs/resthateoas/Greeting.java
+ com.macrodream.gudies.gs.resthateoas.Greeting
 com/macrodream/gudies/gs/uploadingfiles/storage/StorageService.java
  com.macrodream.gudies.gs.uploadingfiles.storage.StorageService
-com/macrodream/gudies/gs/actuatorservice/ActuatorServiceApp.java
- com.macrodream.gudies.gs.actuatorservice.ActuatorServiceApp
 com/macrodream/gudies/gs/uploadingfiles/FileUploadController.java
  com.macrodream.gudies.gs.uploadingfiles.FileUploadController
 com/macrodream/gudies/gs/batchprocessing/PersonItemProcessor.java
@@ -43,23 +55,13 @@ com/macrodream/gudies/gs/uploadingfiles/storage/StorageException.java
  com.macrodream.gudies.gs.uploadingfiles.storage.StorageException
 com/macrodream/gudies/gs/uploadingfiles/UploadFilesApp.java
  com.macrodream.gudies.gs.uploadingfiles.UploadFilesApp
+com/macrodream/gudies/gs/uploadingfiles/storage/FileSystemStorageService.java
+ com.macrodream.gudies.gs.uploadingfiles.storage.FileSystemStorageService
 com/macrodream/gudies/gs/batchprocessing/BatchProcessingApp.java
  com.macrodream.gudies.gs.batchprocessing.BatchProcessingApp
-com/macrodream/gudies/gs/resthateoas/GreetingController.java
- com.macrodream.gudies.gs.resthateoas.GreetingController
-com/macrodream/gudies/gs/restservice/GreetingController.java
- com.macrodream.gudies.gs.restservice.GreetingController
-com/macrodream/gudies/gs/restservice/QuoteController.java
- com.macrodream.gudies.gs.restservice.QuoteController
-com/macrodream/gudies/gs/restservice/Greeting.java
- com.macrodream.gudies.gs.restservice.Greeting
-com/macrodream/gudies/gs/resthateoas/Greeting.java
- com.macrodream.gudies.gs.resthateoas.Greeting
-com/macrodream/gudies/gs/restservice/Quote.java
- com.macrodream.gudies.gs.restservice.Quote
-com/macrodream/gudies/gs/restservice/RestServieApp.java
- com.macrodream.gudies.gs.restservice.RestServieApp
-com/macrodream/gudies/gs/restservice/Value.java
- com.macrodream.gudies.gs.restservice.Value
-com/macrodream/gudies/gs/resthateoas/RestHateoasApp.java
- com.macrodream.gudies.gs.resthateoas.RestHateoasApp
+com/macrodream/gudies/gs/accessingdataneo4j/AccessingDataNeo4jApp.java
+ com.macrodream.gudies.gs.accessingdataneo4j.AccessingDataNeo4jApp
+com/macrodream/gudies/gs/actuatorservice/ActuatorServiceApp.java
+ com.macrodream.gudies.gs.actuatorservice.ActuatorServiceApp
+com/macrodream/gudies/gs/integration/IntegrationApp.java
+ com.macrodream.gudies.gs.integration.IntegrationApp
