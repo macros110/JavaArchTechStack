@@ -65,3 +65,9 @@ com/macrodream/gudies/gs/actuatorservice/ActuatorServiceApp.java
  com.macrodream.gudies.gs.actuatorservice.ActuatorServiceApp
 com/macrodream/gudies/gs/integration/IntegrationApp.java
  com.macrodream.gudies.gs.integration.IntegrationApp
+com/macrodream/gudies/gs/managingtransactions/BookingService.java
+ com.macrodream.gudies.gs.managingtransactions.BookingService
+com/macrodream/gudies/gs/managingtransactions/ManagingTransactionsApp.java
+ com.macrodream.gudies.gs.managingtransactions.ManagingTransactionsApp
+com/macrodream/gudies/gs/managingtransactions/AppRunner.java
+ com.macrodream.gudies.gs.managingtransactions.AppRunner

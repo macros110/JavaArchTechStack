@@ -24,7 +24,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-integration'
     implementation 'org.springframework.integration:spring-integration-feed'
     implementation 'org.springframework.integration:spring-integration-file'
+    //Managing Transactions
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     runtimeOnly 'org.hsqldb:hsqldb'
+    //Managing Transactions
+    runtimeOnly 'com.h2database:h2'
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation 'org.springframework.batch:spring-batch-test'
     //Integrating Data
