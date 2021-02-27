@@ -12,3 +12,5 @@ com/macrodream/gudies/gs/uploadingfiles/FileUploadTests.java
  com.macrodream.gudies.gs.uploadingfiles.FileUploadTests
 com/macrodream/gudies/gs/integration/FlowTests.java
  com.macrodream.gudies.gs.integration.FlowTests
+com/macrodream/gudies/gs/accessingdatamongodb/CustomerRepositoryTests.java
+ com.macrodream.gudies.gs.accessingdatamongodb.CustomerRepositoryTests

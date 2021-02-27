@@ -26,6 +26,8 @@ dependencies {
     implementation 'org.springframework.integration:spring-integration-file'
     //Managing Transactions
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+    //Accessing Data with MongoDB
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
     runtimeOnly 'org.hsqldb:hsqldb'
     //Managing Transactions
     runtimeOnly 'com.h2database:h2'
