@@ -14,3 +14,5 @@ com/macrodream/gudies/gs/integration/FlowTests.java
  com.macrodream.gudies.gs.integration.FlowTests
 com/macrodream/gudies/gs/accessingdatamongodb/CustomerRepositoryTests.java
  com.macrodream.gudies.gs.accessingdatamongodb.CustomerRepositoryTests
+com/macrodream/gudies/gs/handlingformsubmission/HandlingFormSubmissionAppTest.java
+ com.macrodream.gudies.gs.handlingformsubmission.HandlingFormSubmissionAppTest
