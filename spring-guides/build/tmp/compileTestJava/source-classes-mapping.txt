@@ -1,18 +1,23 @@
-com/macrodream/gudies/gs/uploadingfiles/FileUploadIntegrationTests.java
- com.macrodream.gudies.gs.uploadingfiles.FileUploadIntegrationTests
+com/macrodream/gudies/gs/integration/FlowTests.java
+ com.macrodream.gudies.gs.integration.FlowTests
 com/macrodream/gudies/gs/resthateoas/GreetMockMvcTest.java
  com.macrodream.gudies.gs.resthateoas.GreetMockMvcTest
 com/macrodream/gudies/gs/uploadingfiles/storage/FileSystemStorageServiceTests.java
  com.macrodream.gudies.gs.uploadingfiles.storage.FileSystemStorageServiceTests
+com/macrodream/gudies/gs/uploadingfiles/FileUploadIntegrationTests.java
+ com.macrodream.gudies.gs.uploadingfiles.FileUploadIntegrationTests
 com/macrodream/gudies/gs/resthateoas/GreetingTraversonIntegrationTests.java
  com.macrodream.gudies.gs.resthateoas.GreetingTraversonIntegrationTests
 com/macrodream/gudies/gs/actuatorservice/HelloWorldAppTest.java
  com.macrodream.gudies.gs.actuatorservice.HelloWorldAppTest
-com/macrodream/gudies/gs/uploadingfiles/FileUploadTests.java
- com.macrodream.gudies.gs.uploadingfiles.FileUploadTests
-com/macrodream/gudies/gs/integration/FlowTests.java
- com.macrodream.gudies.gs.integration.FlowTests
-com/macrodream/gudies/gs/accessingdatamongodb/CustomerRepositoryTests.java
- com.macrodream.gudies.gs.accessingdatamongodb.CustomerRepositoryTests
 com/macrodream/gudies/gs/handlingformsubmission/HandlingFormSubmissionAppTest.java
  com.macrodream.gudies.gs.handlingformsubmission.HandlingFormSubmissionAppTest
+com/macrodream/gudies/gs/accessingdatamongodb/CustomerRepositoryTests.java
+ com.macrodream.gudies.gs.accessingdatamongodb.CustomerRepositoryTests
+com/macrodream/gudies/gs/uploadingfiles/FileUploadTests.java
+ com.macrodream.gudies.gs.uploadingfiles.FileUploadTests
+com/macrodream/gudies/gs/messagingstompwebsocket/GreetingIntegrationTests.java
+ com.macrodream.gudies.gs.messagingstompwebsocket.GreetingIntegrationTests
+ com.macrodream.gudies.gs.messagingstompwebsocket.GreetingIntegrationTests$1
+ com.macrodream.gudies.gs.messagingstompwebsocket.GreetingIntegrationTests$1$1
+ com.macrodream.gudies.gs.messagingstompwebsocket.GreetingIntegrationTests$TestSessionHandler
