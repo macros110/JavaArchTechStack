@@ -54,8 +54,8 @@ com/macrodream/gudies/gs/messagingstompwebsocket/WebSocketConfig.java
  com.macrodream.gudies.gs.messagingstompwebsocket.WebSocketConfig
 com/macrodream/gudies/gs/restservice/QuoteController.java
  com.macrodream.gudies.gs.restservice.QuoteController
-com/macrodream/gudies/gs/messagingstompwebsocket/MessagingStompWebsocketApp.java
- com.macrodream.gudies.gs.messagingstompwebsocket.MessagingStompWebsocketApp
+com/macrodream/gudies/gs/uploadingfiles/storage/StorageService.java
+ com.macrodream.gudies.gs.uploadingfiles.storage.StorageService
 com/macrodream/gudies/gs/batchprocessing/BatchConfiguration.java
  com.macrodream.gudies.gs.batchprocessing.BatchConfiguration
  com.macrodream.gudies.gs.batchprocessing.BatchConfiguration$1
@@ -91,5 +91,12 @@ com/macrodream/gudies/gs/managingtransactions/ManagingTransactionsApp.java
  com.macrodream.gudies.gs.managingtransactions.ManagingTransactionsApp
 com/macrodream/gudies/gs/actuatorservice/ActuatorServiceApp.java
  com.macrodream.gudies.gs.actuatorservice.ActuatorServiceApp
-com/macrodream/gudies/gs/uploadingfiles/storage/StorageService.java
- com.macrodream.gudies.gs.uploadingfiles.storage.StorageService
+com/macrodream/gudies/gs/restservicecors/Greeting.java
+ com.macrodream.gudies.gs.restservicecors.Greeting
+com/macrodream/gudies/gs/restservicecors/RestServiceCorsApp.java
+ com.macrodream.gudies.gs.restservicecors.RestServiceCorsApp
+ com.macrodream.gudies.gs.restservicecors.RestServiceCorsApp$1
+com/macrodream/gudies/gs/messagingstompwebsocket/MessagingStompWebsocketApp.java
+ com.macrodream.gudies.gs.messagingstompwebsocket.MessagingStompWebsocketApp
+com/macrodream/gudies/gs/restservicecors/GreetingController.java
+ com.macrodream.gudies.gs.restservicecors.GreetingController
