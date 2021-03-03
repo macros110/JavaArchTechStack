@@ -35,6 +35,9 @@ dependencies {
     implementation 'org.webjars:stomp-websocket:2.3.3'
     implementation 'org.webjars:bootstrap:3.3.7'
     implementation 'org.webjars:jquery:3.1.1-1'
+    //Accessing JPA Data with REST 2 package + h2 + sb starter-test
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
     runtimeOnly 'org.hsqldb:hsqldb'
     //Managing Transactions
     runtimeOnly 'com.h2database:h2'

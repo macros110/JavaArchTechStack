@@ -1,0 +1,57 @@
+C:\Windows\system32>curl localhost:8081/people
+{
+  "_embedded" : {
+    "people" : [ ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8081/people"
+    },
+    "profile" : {
+      "href" : "http://localhost:8081/profile/people"
+    },
+    "search" : {
+      "href" : "http://localhost:8081/people/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 0,
+    "totalPages" : 0,
+    "number" : 0
+  }
+}
+
+postman
+post http://localhost:8081/people
+
+{"firstName": "Frodo", "lastName": "Baggins"}
+{
+    "firstName": "Frodo",
+    "lastName": "Baggins",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8081/people/1"
+        },
+        "person": {
+            "href": "http://localhost:8081/people/1"
+        }
+    }
+}
+
+rest-api tools
+
+GET http://localhost:8081/people?name=Baggins
+Accept: application/json
+
+###
+GET http://localhost:8081/people
+
+
+###
+POST http://localhost:8081/people
+Content-Type: application/json
+
+{"firstName": "Frodo", "lastName": "Baggins"}
+
+###
