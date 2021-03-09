@@ -23,3 +23,5 @@ com/macrodream/gudies/gs/uploadingfiles/FileUploadTests.java
  com.macrodream.gudies.gs.uploadingfiles.FileUploadTests
 com/macrodream/gudies/gs/accessingdatarest/AccessingDataRestAppTests.java
  com.macrodream.gudies.gs.accessingdatarest.AccessingDataRestAppTests
+com/macrodream/gudies/gs/accessingmongodbdatarest/AccessingMongodbDataRestAppTests.java
+ com.macrodream.gudies.gs.accessingmongodbdatarest.AccessingMongodbDataRestAppTests
