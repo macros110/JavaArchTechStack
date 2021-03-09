@@ -106,3 +106,9 @@ com/macrodream/gudies/gs/handlingformsubmission/GreetingController.java
  com.macrodream.gudies.gs.handlingformsubmission.GreetingController
 com/macrodream/gudies/gs/managingtransactions/ManagingTransactionsApp.java
  com.macrodream.gudies.gs.managingtransactions.ManagingTransactionsApp
+com/macrodream/gudies/gs/accessingmongodbdatarest/Person.java
+ com.macrodream.gudies.gs.accessingmongodbdatarest.Person
+com/macrodream/gudies/gs/accessingmongodbdatarest/PersonRepository.java
+ com.macrodream.gudies.gs.accessingmongodbdatarest.PersonRepository
+com/macrodream/gudies/gs/accessingmongodbdatarest/AccessingMongodbDataRestApp.java
+ com.macrodream.gudies.gs.accessingmongodbdatarest.AccessingMongodbDataRestApp
