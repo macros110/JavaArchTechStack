@@ -11,7 +11,49 @@ repositories {
     //mavenCentral()
     maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
 }
+// tag::xsd[]
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+            srcDir 'build/generated-sources/jaxb'
+        }
+    }
+}
 
+task genJaxb {
+    ext.sourcesDir = "${buildDir}/generated-sources/jaxb"
+    ext.schema = "src/main/resources/countries.xsd"
+
+    outputs.dir sourcesDir
+
+    doLast() {
+        project.ant {
+            taskdef name: "xjc", classname: "com.sun.tools.xjc.XJCTask",
+                    classpath: configurations.jaxb.asPath
+            mkdir(dir: sourcesDir)
+
+            xjc(destdir: sourcesDir, schema: schema) {
+                arg(value: "-wsdl")
+                produces(dir: sourcesDir, includes: "**/*.java")
+            }
+        }
+    }
+}
+
+compileJava.dependsOn genJaxb
+// end::xsd[]
+
+// tag::jaxb[]
+configurations {
+    jaxb
+}
+
+bootJar {
+    archiveBaseName = 'gs-producing-web-service'
+    archiveVersion =  '0.1.0'
+}
+// end::jaxb[]
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
@@ -38,6 +80,10 @@ dependencies {
     //Accessing JPA Data with REST 2 package + h2 + sb starter-test
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+    //Producing a SOAP web service
+    implementation 'org.springframework.boot:spring-boot-starter-web-services'
+    implementation 'wsdl4j:wsdl4j'
+    jaxb("org.glassfish.jaxb:jaxb-xjc")
     runtimeOnly 'org.hsqldb:hsqldb'
     //Managing Transactions
     runtimeOnly 'com.h2database:h2'
