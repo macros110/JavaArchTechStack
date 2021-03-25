@@ -1,0 +1,2 @@
+com/macrodream/spring/guides/gs/serviceregistrationdiscovery/ServiceRegistrationDiscoveryApp.java
+ com.macrodream.spring.guides.gs.serviceregistrationdiscovery.ServiceRegistrationDiscoveryApp

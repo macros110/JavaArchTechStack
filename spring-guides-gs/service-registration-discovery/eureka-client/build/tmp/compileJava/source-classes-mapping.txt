@@ -1,0 +1,3 @@
+com/macrodream/spring/guides/gs/serviceregistrationdiscovery/ServiceRegistrationDiscoveryClientApp.java
+ com.macrodream.spring.guides.gs.serviceregistrationdiscovery.ServiceInstanceRestController
+ com.macrodream.spring.guides.gs.serviceregistrationdiscovery.ServiceRegistrationDiscoveryClientApp

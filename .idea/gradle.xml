@@ -15,8 +15,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Severless" />
             <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/eureka-client" />
             <option value="$PROJECT_DIR$/spring-framework-demo" />
             <option value="$PROJECT_DIR$/spring-guides" />
+            <option value="$PROJECT_DIR$/spring-guides-gs" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery/eureka-client" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery/eureka-service" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
