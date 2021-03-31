@@ -1,0 +1,4 @@
+com/macrodream/spring/guides/gs/routingfiltering/filter/pre/SimpleFilter.java
+ com.macrodream.spring.guides.gs.routingfiltering.filter.pre.SimpleFilter
+com/macrodream/spring/guides/gs/routingfiltering/RoutingFilterGatewayApp.java
+ com.macrodream.spring.guides.gs.routingfiltering.RoutingFilterGatewayApp

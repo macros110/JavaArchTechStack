@@ -8,4 +8,8 @@ findProject(':spring-guides-gs:service-registration-discovery:eureka-service')?.
 include 'eureka-client'
 include 'spring-guides-gs:service-registration-discovery:eureka-client'
 findProject(':spring-guides-gs:service-registration-discovery:eureka-client')?.name = 'eureka-client'
+include 'spring-guides-gs:routing-filtering:book'
+findProject(':spring-guides-gs:routing-filtering:book')?.name = 'book'
+include 'spring-guides-gs:routing-filtering:gateway'
+findProject(':spring-guides-gs:routing-filtering:gateway')?.name = 'gateway'
 
