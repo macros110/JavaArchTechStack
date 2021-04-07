@@ -19,6 +19,11 @@
             <option value="$PROJECT_DIR$/spring-framework-demo" />
             <option value="$PROJECT_DIR$/spring-guides" />
             <option value="$PROJECT_DIR$/spring-guides-gs" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/say-hello" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello1" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello2" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/user" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering/book" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering/gateway" />
