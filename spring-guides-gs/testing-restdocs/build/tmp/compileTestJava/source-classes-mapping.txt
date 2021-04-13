@@ -1,0 +1,4 @@
+com/macrodream/spring/guides/gs/testingrestdocs/TestingTestRestDocsAppTests.java
+ com.macrodream.spring.guides.gs.testingrestdocs.TestingTestRestDocsAppTests
+com/macrodream/spring/guides/gs/testingrestdocs/WebLayerTest.java
+ com.macrodream.spring.guides.gs.testingrestdocs.WebLayerTest

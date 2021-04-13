@@ -22,4 +22,6 @@ include 'spring-guides-gs:client-side-load-balancing:sayhello2'
 findProject(':spring-guides-gs:client-side-load-balancing:sayhello2')?.name = 'sayhello2'
 include 'spring-guides-gs:accessing-data-mysql'
 findProject(':spring-guides-gs:accessing-data-mysql')?.name = 'accessing-data-mysql'
+include 'spring-guides-gs:testing-restdocs'
+findProject(':spring-guides-gs:testing-restdocs')?.name = 'testing-restdocs'
 
