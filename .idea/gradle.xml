@@ -25,6 +25,7 @@
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello1" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello2" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/user" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/reactive-rest-service" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering/book" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering/gateway" />

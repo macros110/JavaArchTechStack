@@ -24,4 +24,6 @@ include 'spring-guides-gs:accessing-data-mysql'
 findProject(':spring-guides-gs:accessing-data-mysql')?.name = 'accessing-data-mysql'
 include 'spring-guides-gs:testing-restdocs'
 findProject(':spring-guides-gs:testing-restdocs')?.name = 'testing-restdocs'
+include 'spring-guides-gs:reactive-rest-service'
+findProject(':spring-guides-gs:reactive-rest-service')?.name = 'reactive-rest-service'
 
