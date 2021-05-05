@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/spring-guides" />
             <option value="$PROJECT_DIR$/spring-guides-gs" />
             <option value="$PROJECT_DIR$/spring-guides-gs/accessing-data-mysql" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/accessing-data-reative-redis" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/say-hello" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello1" />

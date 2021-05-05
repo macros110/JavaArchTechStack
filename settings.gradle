@@ -26,4 +26,6 @@ include 'spring-guides-gs:testing-restdocs'
 findProject(':spring-guides-gs:testing-restdocs')?.name = 'testing-restdocs'
 include 'spring-guides-gs:reactive-rest-service'
 findProject(':spring-guides-gs:reactive-rest-service')?.name = 'reactive-rest-service'
+include 'spring-guides-gs:accessing-data-reative-redis'
+findProject(':spring-guides-gs:accessing-data-reative-redis')?.name = 'accessing-data-reative-redis'
 
