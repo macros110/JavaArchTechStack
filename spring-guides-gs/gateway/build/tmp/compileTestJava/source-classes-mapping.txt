@@ -1,0 +1,2 @@
+com/macrodream/spring/guides/gs/gateway/GatewayAppTest.java
+ com.macrodream.spring.guides.gs.gateway.GatewayAppTest

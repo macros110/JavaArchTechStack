@@ -28,4 +28,6 @@ include 'spring-guides-gs:reactive-rest-service'
 findProject(':spring-guides-gs:reactive-rest-service')?.name = 'reactive-rest-service'
 include 'spring-guides-gs:accessing-data-reative-redis'
 findProject(':spring-guides-gs:accessing-data-reative-redis')?.name = 'accessing-data-reative-redis'
+include 'spring-guides-gs:gateway'
+findProject(':spring-guides-gs:gateway')?.name = 'gateway'
 
