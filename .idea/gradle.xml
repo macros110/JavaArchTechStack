@@ -31,6 +31,7 @@
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering/book" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering/gateway" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/scheduling-tasks" />
             <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery" />
             <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery/eureka-client" />
             <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery/eureka-service" />

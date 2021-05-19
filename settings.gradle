@@ -30,4 +30,6 @@ include 'spring-guides-gs:accessing-data-reative-redis'
 findProject(':spring-guides-gs:accessing-data-reative-redis')?.name = 'accessing-data-reative-redis'
 include 'spring-guides-gs:gateway'
 findProject(':spring-guides-gs:gateway')?.name = 'gateway'
+include 'spring-guides-gs:scheduling-tasks'
+findProject(':spring-guides-gs:scheduling-tasks')?.name = 'scheduling-tasks'
 
