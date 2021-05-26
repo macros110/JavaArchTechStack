@@ -1,0 +1,4 @@
+com/macrodream/spring/guides/gs/retationaldataaccess/Customer.java
+ com.macrodream.spring.guides.gs.retationaldataaccess.Customer
+com/macrodream/spring/guides/gs/retationaldataaccess/RelationalDataAccessApp.java
+ com.macrodream.spring.guides.gs.retationaldataaccess.RelationalDataAccessApp
