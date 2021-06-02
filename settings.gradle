@@ -36,4 +36,6 @@ include 'spring-guides-gs:relational-data-access'
 findProject(':spring-guides-gs:relational-data-access')?.name = 'relational-data-access'
 include 'spring-guides-gs:relational-data-access'
 findProject(':spring-guides-gs:relational-data-access')?.name = 'relational-data-access'
+include 'spring-guides-gs:authenticating-ldap'
+findProject(':spring-guides-gs:authenticating-ldap')?.name = 'authenticating-ldap'
 
