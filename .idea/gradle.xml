@@ -28,6 +28,7 @@
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello2" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/user" />
             <option value="$PROJECT_DIR$/spring-guides-gs/gateway" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/messaging-jms" />
             <option value="$PROJECT_DIR$/spring-guides-gs/reactive-rest-service" />
             <option value="$PROJECT_DIR$/spring-guides-gs/relational-data-access" />
             <option value="$PROJECT_DIR$/spring-guides-gs/routing-filtering" />

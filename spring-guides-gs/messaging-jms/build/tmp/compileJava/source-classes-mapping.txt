@@ -1,0 +1,6 @@
+com/macrodream/spring/gs/messagingjms/MessagingJmsApp.java
+ com.macrodream.spring.gs.messagingjms.MessagingJmsApp
+com/macrodream/spring/gs/messagingjms/Email.java
+ com.macrodream.spring.gs.messagingjms.Email
+com/macrodream/spring/gs/messagingjms/Receiver.java
+ com.macrodream.spring.gs.messagingjms.Receiver
