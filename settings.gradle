@@ -40,4 +40,6 @@ include 'spring-guides-gs:authenticating-ldap'
 findProject(':spring-guides-gs:authenticating-ldap')?.name = 'authenticating-ldap'
 include 'spring-guides-gs:messaging-jms'
 findProject(':spring-guides-gs:messaging-jms')?.name = 'messaging-jms'
+include 'spring-guides-gs:securing-web'
+findProject(':spring-guides-gs:securing-web')?.name = 'securing-web'
 
