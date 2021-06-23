@@ -1,0 +1,6 @@
+com/macrodream/spring/guides/gs/accessingdategemfire/PersonRepository.java
+ com.macrodream.spring.guides.gs.accessingdategemfire.PersonRepository
+com/macrodream/spring/guides/gs/accessingdategemfire/AccessingDataGemfireApp.java
+ com.macrodream.spring.guides.gs.accessingdategemfire.AccessingDataGemfireApp
+com/macrodream/spring/guides/gs/accessingdategemfire/Person.java
+ com.macrodream.spring.guides.gs.accessingdategemfire.Person

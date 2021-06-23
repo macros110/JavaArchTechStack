@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/spring-framework-demo" />
             <option value="$PROJECT_DIR$/spring-guides" />
             <option value="$PROJECT_DIR$/spring-guides-gs" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/accessing-data-gemfire" />
             <option value="$PROJECT_DIR$/spring-guides-gs/accessing-data-mysql" />
             <option value="$PROJECT_DIR$/spring-guides-gs/accessing-data-reative-redis" />
             <option value="$PROJECT_DIR$/spring-guides-gs/authenticating-ldap" />
