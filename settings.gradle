@@ -44,4 +44,8 @@ include 'spring-guides-gs:securing-web'
 findProject(':spring-guides-gs:securing-web')?.name = 'securing-web'
 include 'spring-guides-gs:accessing-data-gemfire'
 findProject(':spring-guides-gs:accessing-data-gemfire')?.name = 'accessing-data-gemfire'
+include 'spring-guides-gs:caching-gemfire'
+findProject(':spring-guides-gs:caching-gemfire')?.name = 'caching-gemfire'
+include 'spring-guides-gs:caching-gemfire-quotesevice'
+findProject(':spring-guides-gs:caching-gemfire-quotesevice')?.name = 'caching-gemfire-quotesevice'
 

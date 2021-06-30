@@ -23,6 +23,8 @@
             <option value="$PROJECT_DIR$/spring-guides-gs/accessing-data-mysql" />
             <option value="$PROJECT_DIR$/spring-guides-gs/accessing-data-reative-redis" />
             <option value="$PROJECT_DIR$/spring-guides-gs/authenticating-ldap" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/caching-gemfire" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/caching-gemfire-quotesevice" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/say-hello" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello1" />
