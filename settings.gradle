@@ -48,4 +48,6 @@ include 'spring-guides-gs:caching-gemfire'
 findProject(':spring-guides-gs:caching-gemfire')?.name = 'caching-gemfire'
 include 'spring-guides-gs:caching-gemfire-quotesevice'
 findProject(':spring-guides-gs:caching-gemfire-quotesevice')?.name = 'caching-gemfire-quotesevice'
+include 'spring-guides-gs:spring-boot-docker'
+findProject(':spring-guides-gs:spring-boot-docker')?.name = 'spring-boot-docker'
 

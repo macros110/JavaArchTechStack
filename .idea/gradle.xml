@@ -42,6 +42,7 @@
             <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery" />
             <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery/eureka-client" />
             <option value="$PROJECT_DIR$/spring-guides-gs/service-registration-discovery/eureka-service" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/spring-boot-docker" />
             <option value="$PROJECT_DIR$/spring-guides-gs/testing-restdocs" />
           </set>
         </option>
