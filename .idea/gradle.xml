@@ -30,6 +30,7 @@
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello1" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello2" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/user" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/crud-with-vaadin" />
             <option value="$PROJECT_DIR$/spring-guides-gs/gateway" />
             <option value="$PROJECT_DIR$/spring-guides-gs/messaging-jms" />
             <option value="$PROJECT_DIR$/spring-guides-gs/reactive-rest-service" />

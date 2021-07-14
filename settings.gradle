@@ -50,4 +50,6 @@ include 'spring-guides-gs:caching-gemfire-quotesevice'
 findProject(':spring-guides-gs:caching-gemfire-quotesevice')?.name = 'caching-gemfire-quotesevice'
 include 'spring-guides-gs:spring-boot-docker'
 findProject(':spring-guides-gs:spring-boot-docker')?.name = 'spring-boot-docker'
+include 'spring-guides-gs:crud-with-vaadin'
+findProject(':spring-guides-gs:crud-with-vaadin')?.name = 'crud-with-vaadin'
 
