@@ -25,6 +25,9 @@
             <option value="$PROJECT_DIR$/spring-guides-gs/authenticating-ldap" />
             <option value="$PROJECT_DIR$/spring-guides-gs/caching-gemfire" />
             <option value="$PROJECT_DIR$/spring-guides-gs/caching-gemfire-quotesevice" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/centralized-configuration" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/centralized-configuration/configuration-client" />
+            <option value="$PROJECT_DIR$/spring-guides-gs/centralized-configuration/configuration-service" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/say-hello" />
             <option value="$PROJECT_DIR$/spring-guides-gs/client-side-load-balancing/sayhello1" />
