@@ -1,2 +1,0 @@
-com/macrodream/serverless/DemoApp.java
- com.macrodream.serverless.DemoApp
