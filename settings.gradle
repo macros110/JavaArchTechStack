@@ -62,4 +62,8 @@ include 'spring-guides-gs:centralized-configuration:configuration-client'
 findProject(':spring-guides-gs:centralized-configuration:configuration-client')?.name = 'configuration-client'
 include 'spring-guides-gs:testing-web'
 findProject(':spring-guides-gs:testing-web')?.name = 'testing-web'
+include 'spring-guides-gs:multi-module:application'
+findProject(':spring-guides-gs:multi-module:application')?.name = 'application'
+include 'spring-guides-gs:multi-module:library'
+findProject(':spring-guides-gs:multi-module:library')?.name = 'library'
 
