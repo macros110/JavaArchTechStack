@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        //mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.5.3")
+    }
+}
+
+group 'com.macrodream'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+bootJar {
+    baseName = 'vault-config'
+    version =  '0.1.0'
+}
+
+repositories {
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    //mavenCentral()
+}
+
+ext {
+    springCloudVersion = '2020.0.3'
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+dependencies {
+    compile('org.springframework.cloud:spring-cloud-starter-vault-config')
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}

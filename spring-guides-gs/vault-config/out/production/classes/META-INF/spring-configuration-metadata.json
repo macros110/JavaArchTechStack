@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "example",
+      "type": "com.macrodream.spring.gudies.gs.vaultconfig.MyConfiguration",
+      "sourceType": "com.macrodream.spring.gudies.gs.vaultconfig.MyConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "example.password",
+      "type": "java.lang.String",
+      "sourceType": "com.macrodream.spring.gudies.gs.vaultconfig.MyConfiguration"
+    },
+    {
+      "name": "example.username",
+      "type": "java.lang.String",
+      "sourceType": "com.macrodream.spring.gudies.gs.vaultconfig.MyConfiguration"
+    }
+  ],
+  "hints": []
+}
