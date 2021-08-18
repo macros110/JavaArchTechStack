@@ -78,4 +78,6 @@ include 'spring-guides-gs:contract-rest:contract-rest-service'
 findProject(':spring-guides-gs:contract-rest:contract-rest-service')?.name = 'contract-rest-service'
 include 'spring-guides-gs:contract-rest:contract-rest-client'
 findProject(':spring-guides-gs:contract-rest:contract-rest-client')?.name = 'contract-rest-client'
+include 'spring-guides-gs:vault-config'
+findProject(':spring-guides-gs:vault-config')?.name = 'vault-config'
 

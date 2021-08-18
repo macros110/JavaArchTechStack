@@ -66,12 +66,12 @@ com/macrodream/gudies/gs/messagingredis/Receiver.java
  com.macrodream.gudies.gs.messagingredis.Receiver
 io/spring/guides/gs_producing_web_service/package-info.java
  io.spring.guides.gs_producing_web_service.package-info
-com/macrodream/gudies/gs/managingtransactions/ManagingTransactionsApp.java
- com.macrodream.gudies.gs.managingtransactions.ManagingTransactionsApp
+com/macrodream/gudies/gs/producingwebservice/CountryEndpoint.java
+ com.macrodream.gudies.gs.producingwebservice.CountryEndpoint
 com/macrodream/gudies/gs/accessingdataneo4j/PersonRepository.java
  com.macrodream.gudies.gs.accessingdataneo4j.PersonRepository
-com/macrodream/gudies/gs/handlingformsubmission/GreetingController.java
- com.macrodream.gudies.gs.handlingformsubmission.GreetingController
+com/macrodream/gudies/gs/producingwebservice/WebServiceConfig.java
+ com.macrodream.gudies.gs.producingwebservice.WebServiceConfig
 com/macrodream/gudies/gs/restservice/Greeting.java
  com.macrodream.gudies.gs.restservice.Greeting
 com/macrodream/gudies/gs/restservice/Quote.java
@@ -128,7 +128,7 @@ com/macrodream/gudies/gs/uploadingfiles/storage/FileSystemStorageService.java
  com.macrodream.gudies.gs.uploadingfiles.storage.FileSystemStorageService
 com/macrodream/gudies/gs/accessingdataneo4j/AccessingDataNeo4jApp.java
  com.macrodream.gudies.gs.accessingdataneo4j.AccessingDataNeo4jApp
-com/macrodream/gudies/gs/producingwebservice/CountryEndpoint.java
- com.macrodream.gudies.gs.producingwebservice.CountryEndpoint
-com/macrodream/gudies/gs/producingwebservice/WebServiceConfig.java
- com.macrodream.gudies.gs.producingwebservice.WebServiceConfig
+com/macrodream/gudies/gs/handlingformsubmission/GreetingController.java
+ com.macrodream.gudies.gs.handlingformsubmission.GreetingController
+com/macrodream/gudies/gs/managingtransactions/ManagingTransactionsApp.java
+ com.macrodream.gudies.gs.managingtransactions.ManagingTransactionsApp
