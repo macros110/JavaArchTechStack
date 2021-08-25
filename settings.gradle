@@ -80,4 +80,8 @@ include 'spring-guides-gs:contract-rest:contract-rest-client'
 findProject(':spring-guides-gs:contract-rest:contract-rest-client')?.name = 'contract-rest-client'
 include 'spring-guides-gs:vault-config'
 findProject(':spring-guides-gs:vault-config')?.name = 'vault-config'
+include 'spring-guides-gs:spring-cloud-loadbalancer:say-hello'
+findProject(':spring-guides-gs:spring-cloud-loadbalancer:say-hello')?.name = 'say-hello'
+include 'spring-guides-gs:spring-cloud-loadbalancer:user'
+findProject(':spring-guides-gs:spring-cloud-loadbalancer:user')?.name = 'user'
 
