@@ -84,4 +84,6 @@ include 'spring-guides-gs:spring-cloud-loadbalancer:say-hello'
 findProject(':spring-guides-gs:spring-cloud-loadbalancer:say-hello')?.name = 'say-hello'
 include 'spring-guides-gs:spring-cloud-loadbalancer:user'
 findProject(':spring-guides-gs:spring-cloud-loadbalancer:user')?.name = 'user'
+include 'spring-guides-gs:accessing-data-r2dbc'
+findProject(':spring-guides-gs:accessing-data-r2dbc')?.name = 'accessing-data-r2dbc'
 

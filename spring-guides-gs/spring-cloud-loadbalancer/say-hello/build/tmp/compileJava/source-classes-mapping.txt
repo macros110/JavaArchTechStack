@@ -1,0 +1,2 @@
+com/macrodream/hello/SayHelloApp.java
+ com.macrodream.hello.SayHelloApp
