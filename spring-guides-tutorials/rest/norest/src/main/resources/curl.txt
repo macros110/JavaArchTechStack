@@ -1,0 +1,81 @@
+Copying skeleton files.
+These files are for the users to personalise their cygwin experience.
+
+They will never be overwritten nor automatically updated.
+
+'./.bashrc' -> '/home/Macros.Zhang//.bashrc'
+'./.bash_profile' -> '/home/Macros.Zhang//.bash_profile'
+'./.inputrc' -> '/home/Macros.Zhang//.inputrc'
+'./.profile' -> '/home/Macros.Zhang//.profile'
+
+Macros.Zhang@Mac ~
+$ curl
+curl: try 'curl --help' or 'curl --manual' for more information
+
+Macros.Zhang@Mac ~
+$ curl --help
+Usage: curl [options...] <url>
+ -d, --data <data>   HTTP POST data
+ -f, --fail          Fail silently (no output at all) on HTTP errors
+ -h, --help <category> Get help for commands
+ -i, --include       Include protocol response headers in the output
+ -o, --output <file> Write to file instead of stdout
+ -O, --remote-name   Write output to a file named as the remote file
+ -s, --silent        Silent mode
+ -T, --upload-file <file> Transfer local FILE to destination
+ -u, --user <user:password> Server user and password
+ -A, --user-agent <name> Send User-Agent <name> to server
+ -v, --verbose       Make the operation more talkative
+ -V, --version       Show version number and quit
+
+This is not the full help, this menu is stripped into categories.
+Use "--help category" to get an overview of all categories.
+For all options use the manual or "--help all".
+
+Macros.Zhang@Mac ~
+$ curl -v localhost:8080/employees
+*   Trying ::1:8080...
+* Connected to localhost (::1) port 8080 (#0)
+> GET /employees HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/7.73.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< Date: Wed, 29 Sep 2021 13:30:52 GMT
+<
+[{"id":1,"name":"Bilbo Baggins","role":"burglar"},{"id":2,"name":"Frodo Baggins","role":"thief"}]* Connection #0 to host localhost left intact
+
+Macros.Zhang@Mac ~
+$ curl -v localhost:8080/employees/99
+*   Trying ::1:8080...
+* Connected to localhost (::1) port 8080 (#0)
+> GET /employees/99 HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/7.73.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 404
+< Content-Type: text/plain;charset=UTF-8
+< Content-Length: 26
+< Date: Wed, 29 Sep 2021 13:31:41 GMT
+<
+Could not find employee 99* Connection #0 to host localhost left intact
+
+Macros.Zhang@Mac ~
+$ curl -X POST localhost:8080/employees -H 'Content-type:application/json' -d '{"name": "Samwise Gamgee", "role
+": "gardener"}'
+{"id":3,"name":"Samwise Gamgee","role":"gardener"}
+Macros.Zhang@Mac ~
+$ curl -X PUT localhost:8080/employees/3 -H 'Content-type:application/json' -d '{"name": "Samwise Gamgee", "rol
+e": "ring bearer"}'
+{"id":3,"name":"Samwise Gamgee","role":"ring bearer"}
+Macros.Zhang@Mac ~
+$ curl -X DELETE localhost:8080/employees/3
+
+Macros.Zhang@Mac ~
+$
