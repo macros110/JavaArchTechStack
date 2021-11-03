@@ -1,0 +1,8 @@
+com/macrodream/spring/guides/gs/contractrestservice/ContractRestServiceApp.java
+ com.macrodream.spring.guides.gs.contractrestservice.ContractRestServiceApp
+com/macrodream/spring/guides/gs/contractrestservice/PersonRestController.java
+ com.macrodream.spring.guides.gs.contractrestservice.PersonRestController
+com/macrodream/spring/guides/gs/contractrestservice/PersonService.java
+ com.macrodream.spring.guides.gs.contractrestservice.PersonService
+com/macrodream/spring/guides/gs/contractrestservice/Person.java
+ com.macrodream.spring.guides.gs.contractrestservice.Person

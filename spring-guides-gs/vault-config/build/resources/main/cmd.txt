@@ -1,0 +1,46 @@
+console 1
+vault server --dev --dev-root-token-id="00000000-0000-0000-0000-000000000000"
+
+console 2
+C:\Windows\system32>set VAULT_ADDR=http://127.0.0.1:8200
+
+C:\Windows\system32>vault kv put secret/vault-config example.username=demouser example.password=demopassword
+Error making API request.
+
+URL: GET http://127.0.0.1:8200/v1/sys/internal/ui/mounts/secret/vault-config
+Code: 403. Errors:
+
+* permission denied
+
+C:\Windows\system32>set VAULT_TOKEN=00000000-0000-0000-0000-000000000000
+
+C:\Windows\system32>vault kv put secret/vault-config example.username=demouser example.password=demopassword
+Key              Value
+---              -----
+created_time     2021-08-18T15:28:39.1758973Z
+deletion_time    n/a
+destroyed        false
+version          1
+
+C:\Windows\system32>vault kv put secret/vault-config/cloud example.username=clouduser example.password=cloudpassword
+Key              Value
+---              -----
+created_time     2021-08-18T15:29:01.0514716Z
+deletion_time    n/a
+destroyed        false
+version          1
+
+C:\Windows\system32>vault kv get secret/vault-config
+====== Metadata ======
+Key              Value
+---              -----
+created_time     2021-08-18T15:28:39.1758973Z
+deletion_time    n/a
+destroyed        false
+version          1
+
+========== Data ==========
+Key                 Value
+---                 -----
+example.password    demopassword
+example.username    demouser

@@ -1,0 +1,2 @@
+com/macrodream/spring/guides/gs/contractrestservice/BaseClass.java
+ com.macrodream.spring.guides.gs.contractrestservice.BaseClass

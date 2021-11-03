@@ -1,0 +1,5 @@
+com/macrodream/spring/guides/gs/contractrestclient/Person.java
+ com.macrodream.spring.guides.gs.contractrestclient.Person
+com/macrodream/spring/guides/gs/contractrestclient/ContractRestClientApp.java
+ com.macrodream.spring.guides.gs.contractrestclient.ContractRestClientApp
+ com.macrodream.spring.guides.gs.contractrestclient.MessageRestController

@@ -1,0 +1,4 @@
+com/macrodream/spring/gudies/gs/vaultconfig/VaultConfigApp.java
+ com.macrodream.spring.gudies.gs.vaultconfig.VaultConfigApp
+com/macrodream/spring/gudies/gs/vaultconfig/MyConfiguration.java
+ com.macrodream.spring.gudies.gs.vaultconfig.MyConfiguration

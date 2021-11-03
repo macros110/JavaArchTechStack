@@ -106,4 +106,6 @@ include 'spring-guides-tutorials:rest:links'
 findProject(':spring-guides-tutorials:rest:links')?.name = 'links'
 include 'spring-guides-tutorials:rest:rest'
 findProject(':spring-guides-tutorials:rest:rest')?.name = 'rest'
+include 'spring-guides-tutorials:spring-boot-oauth2:simple'
+findProject(':spring-guides-tutorials:spring-boot-oauth2:simple')?.name = 'simple'
 

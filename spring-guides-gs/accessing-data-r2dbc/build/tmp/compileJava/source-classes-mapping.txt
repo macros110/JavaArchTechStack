@@ -1,0 +1,6 @@
+com/macrodream/spring/guides/gs/accessingdatar2dbc/CustomerRepository.java
+ com.macrodream.spring.guides.gs.accessingdatar2dbc.CustomerRepository
+com/macrodream/spring/guides/gs/accessingdatar2dbc/Customer.java
+ com.macrodream.spring.guides.gs.accessingdatar2dbc.Customer
+com/macrodream/spring/guides/gs/accessingdatar2dbc/AccessingDataR2dbcApp.java
+ com.macrodream.spring.guides.gs.accessingdatar2dbc.AccessingDataR2dbcApp

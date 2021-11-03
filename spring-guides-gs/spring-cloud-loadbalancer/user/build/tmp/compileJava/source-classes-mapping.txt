@@ -1,0 +1,7 @@
+com/macrodream/hello/SayHelloConfiguration.java
+ com.macrodream.hello.DemoServiceInstanceListSuppler
+ com.macrodream.hello.SayHelloConfiguration
+com/macrodream/hello/UserApp.java
+ com.macrodream.hello.UserApp
+com/macrodream/hello/WebClientConfig.java
+ com.macrodream.hello.WebClientConfig
