@@ -1,2 +1,0 @@
-com/macrodream/spring/guides/gs/SpringBootDockerApp.java
- com.macrodream.spring.guides.gs.SpringBootDockerApp

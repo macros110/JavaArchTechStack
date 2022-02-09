@@ -1,4 +1,0 @@
-com/macrodream/hello/BookService.java
- com.macrodream.hello.BookService
-com/macrodream/hello/ReadingApp.java
- com.macrodream.hello.ReadingApp

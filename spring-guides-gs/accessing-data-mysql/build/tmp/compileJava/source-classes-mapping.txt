@@ -1,8 +1,0 @@
-com/macrodream/spring/guides/gs/accessingdatamysql/AccessingDataMysqlApp.java
- com.macrodream.spring.guides.gs.accessingdatamysql.AccessingDataMysqlApp
-com/macrodream/spring/guides/gs/accessingdatamysql/MainController.java
- com.macrodream.spring.guides.gs.accessingdatamysql.MainController
-com/macrodream/spring/guides/gs/accessingdatamysql/User.java
- com.macrodream.spring.guides.gs.accessingdatamysql.User
-com/macrodream/spring/guides/gs/accessingdatamysql/UserRepository.java
- com.macrodream.spring.guides.gs.accessingdatamysql.UserRepository

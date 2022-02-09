@@ -1,4 +1,0 @@
-com/macrodream/spring/guides/gs/testingrestdocs/TestRestDocsApp.java
- com.macrodream.spring.guides.gs.testingrestdocs.TestRestDocsApp
-com/macrodream/spring/guides/gs/testingrestdocs/HomeController.java
- com.macrodream.spring.guides.gs.testingrestdocs.HomeController

@@ -1,2 +1,0 @@
-com/macrodream/spring/guides/gs/contractrestclient/ContractRestClientAppTest.java
- com.macrodream.spring.guides.gs.contractrestclient.ContractRestClientAppTest

@@ -1,4 +1,0 @@
-com/macrodream/spring/gs/schedulingtasks/ScheduledTasks.java
- com.macrodream.spring.gs.schedulingtasks.ScheduledTasks
-com/macrodream/spring/gs/schedulingtasks/SchedulingTasksApp.java
- com.macrodream.spring.gs.schedulingtasks.SchedulingTasksApp

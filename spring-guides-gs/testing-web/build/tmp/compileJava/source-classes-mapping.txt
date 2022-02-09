@@ -1,8 +1,0 @@
-com/macrodream/spring/guides/gs/testingweb/TestingWebApp.java
- com.macrodream.spring.guides.gs.testingweb.TestingWebApp
-com/macrodream/spring/guides/gs/testingweb/HomeController.java
- com.macrodream.spring.guides.gs.testingweb.HomeController
-com/macrodream/spring/guides/gs/testingweb/GreetingService.java
- com.macrodream.spring.guides.gs.testingweb.GreetingService
-com/macrodream/spring/guides/gs/testingweb/GreetingController.java
- com.macrodream.spring.guides.gs.testingweb.GreetingController

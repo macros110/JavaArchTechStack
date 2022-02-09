@@ -1,9 +1,0 @@
-/.gradle
-/.idea
-/build
-/src/test
-
-**/build/
-**.class
-
-**/out/

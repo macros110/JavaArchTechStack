@@ -1,6 +1,0 @@
-com/macrodream/spring/guides/gs/securingweb/MvcConfig.java
- com.macrodream.spring.guides.gs.securingweb.MvcConfig
-com/macrodream/spring/guides/gs/securingweb/WebSecurityConfig.java
- com.macrodream.spring.guides.gs.securingweb.WebSecurityConfig
-com/macrodream/spring/guides/gs/securingweb/SecuringWebApp.java
- com.macrodream.spring.guides.gs.securingweb.SecuringWebApp

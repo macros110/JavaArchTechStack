@@ -1,3 +1,0 @@
-com/macrodream/spring/guides/gs/configurationclient/ConfigurationClientApp.java
- com.macrodream.spring.guides.gs.configurationclient.ConfigurationClientApp
- com.macrodream.spring.guides.gs.configurationclient.MessageRestController

@@ -1,2 +1,0 @@
-com/macrodream/spring/guides/gs/clientsideloadbalancing/SayHelloApp.java
- com.macrodream.spring.guides.gs.clientsideloadbalancing.SayHelloApp

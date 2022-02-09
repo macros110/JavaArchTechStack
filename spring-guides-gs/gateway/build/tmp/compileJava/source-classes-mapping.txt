@@ -1,3 +1,0 @@
-com/macrodream/spring/guides/gs/gateway/GatewayApp.java
- com.macrodream.spring.guides.gs.gateway.GatewayApp
- com.macrodream.spring.guides.gs.gateway.UriConfiguration

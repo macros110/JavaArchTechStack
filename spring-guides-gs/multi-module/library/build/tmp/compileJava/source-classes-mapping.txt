@@ -1,4 +1,0 @@
-com/macrodream/spring/guides/gs/multimodule/service/MyService.java
- com.macrodream.spring.guides.gs.multimodule.service.MyService
-com/macrodream/spring/guides/gs/multimodule/service/ServiceProperties.java
- com.macrodream.spring.guides.gs.multimodule.service.ServiceProperties

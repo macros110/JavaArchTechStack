@@ -1,2 +1,0 @@
-com/macrodream/hello/BookstoreApp.java
- com.macrodream.hello.BookstoreApp

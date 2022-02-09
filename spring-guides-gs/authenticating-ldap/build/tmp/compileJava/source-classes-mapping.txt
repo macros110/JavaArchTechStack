@@ -1,6 +1,0 @@
-com/macrodream/spring/guides/gs/authenticatingldap/AuthenticatingLdapApp.java
- com.macrodream.spring.guides.gs.authenticatingldap.AuthenticatingLdapApp
-com/macrodream/spring/guides/gs/authenticatingldap/WebSecurityConfig.java
- com.macrodream.spring.guides.gs.authenticatingldap.WebSecurityConfig
-com/macrodream/spring/guides/gs/authenticatingldap/HomeController.java
- com.macrodream.spring.guides.gs.authenticatingldap.HomeController

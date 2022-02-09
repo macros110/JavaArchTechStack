@@ -1,3 +1,0 @@
-com/macrodream/spring/guides/gs/multimodule/service/MyServiceTest.java
- com.macrodream.spring.guides.gs.multimodule.service.MyServiceTest
- com.macrodream.spring.guides.gs.multimodule.service.MyServiceTest$TestConfiguration

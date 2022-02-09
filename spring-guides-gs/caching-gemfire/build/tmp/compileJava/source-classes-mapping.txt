@@ -1,8 +1,0 @@
-com/macrodream/spring/guides/gs/cachinggemfire/QuoteService.java
- com.macrodream.spring.guides.gs.cachinggemfire.QuoteService
-com/macrodream/spring/guides/gs/cachinggemfire/QuoteResponse.java
- com.macrodream.spring.guides.gs.cachinggemfire.QuoteResponse
-com/macrodream/spring/guides/gs/cachinggemfire/Quote.java
- com.macrodream.spring.guides.gs.cachinggemfire.Quote
-com/macrodream/spring/guides/gs/cachinggemfire/CachingGemFireApp.java
- com.macrodream.spring.guides.gs.cachinggemfire.CachingGemFireApp
