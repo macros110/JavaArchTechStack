@@ -9,5 +9,8 @@ public class T002_ClassLoaderLevel {
 
         System.out.println(sun.net.spi.nameservice.dns.DNSNameService.class.getClassLoader().getClass().getClassLoader());
         System.out.println(T002_ClassLoaderLevel.class.getClassLoader().getClass().getClassLoader());
+
+        System.out.println(new T006_MacClassLoader().getParent());
+        System.out.println(ClassLoader.getSystemClassLoader());
     }
 }

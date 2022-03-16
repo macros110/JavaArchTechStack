@@ -10,8 +10,8 @@ import java.io.IOException;
 public class T006_MacClassLoader extends ClassLoader{
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
-        File f = new File("D:\\Develop\\java\\ideaProjs\\JavaArchTechStack\\tech-stack\\jvm\\target\\classes",
-                name.replaceAll(".", "/").concat(".class"));
+        File f = new File("D:\\Develop\\java\\ideaProjs\\JavaArchTechStack\\tech-stack\\jvm\\target\\classes\\",
+                name.replaceAll("\\.", "/").concat(".class"));
         FileInputStream fis = null;
         ByteArrayOutputStream baos = null;
         try {
@@ -51,5 +51,8 @@ public class T006_MacClassLoader extends ClassLoader{
         Class clazz = l.loadClass("com.macrodream.jvm.Hello");
         Hello h = (Hello) clazz.newInstance();
         h.m();
+
+        System.out.println(l.getClass().getClassLoader());
+        System.out.println(l.getParent());
     }
 }
