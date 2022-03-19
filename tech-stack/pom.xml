@@ -12,6 +12,7 @@
         <module>use-case</module>
         <module>frame</module>
         <module>jvm</module>
+        <module>juc</module>
     </modules>
 
     <properties>
