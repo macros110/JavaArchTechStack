@@ -1,6 +1,4 @@
-package com.macrodream.juc.basic;
-
-import sun.misc.PostVMInitHook;
+package com.macrodream.juc.basic.sync;
 
 import java.util.concurrent.TimeUnit;
 

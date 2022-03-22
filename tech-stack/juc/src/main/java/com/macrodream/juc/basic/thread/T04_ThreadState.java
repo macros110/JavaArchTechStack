@@ -1,4 +1,4 @@
-package com.macrodream.juc.basic;
+package com.macrodream.juc.basic.thread;
 
 public class T04_ThreadState {
     static class MyThread extends Thread{

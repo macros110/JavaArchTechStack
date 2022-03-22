@@ -1,4 +1,4 @@
-package com.macrodream.juc.basic;
+package com.macrodream.juc.basic.thread;
 
 import java.util.concurrent.TimeUnit;
 

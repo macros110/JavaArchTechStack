@@ -1,4 +1,4 @@
-package com.macrodream.juc.basic;
+package com.macrodream.juc.basic.sync;
 
 public class T05_Synchronized05MethodClass {
 
