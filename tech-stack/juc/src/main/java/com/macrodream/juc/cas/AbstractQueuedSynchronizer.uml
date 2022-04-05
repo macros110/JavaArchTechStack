@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.locks.AbstractQueuedSynchronizer</OriginalElement>
+  <nodes>
+    <node x="233.0" y="563.0">java.util.concurrent.locks.ReentrantReadWriteLock.Sync.ThreadLocalHoldCounter</node>
+    <node x="144.0" y="478.0">java.util.concurrent.locks.ReentrantReadWriteLock.FairSync</node>
+    <node x="355.0" y="307.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+    <node x="726.0" y="278.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
+    <node x="213.0" y="229.0">java.util.concurrent.locks.ReentrantReadWriteLock.NonfairSync</node>
+    <node x="779.0" y="414.0">java.util.concurrent.locks.ReentrantLock</node>
+    <node x="144.0" y="9.0">java.util.concurrent.ThreadPoolExecutor</node>
+    <node x="355.0" y="138.0">java.util.concurrent.ThreadPoolExecutor.Worker</node>
+    <node x="638.0" y="0.0">java.util.concurrent.Semaphore</node>
+    <node x="632.0" y="385.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
+    <node x="0.0" y="312.0">java.util.concurrent.locks.ReentrantReadWriteLock</node>
+    <node x="477.0" y="653.0">java.util.concurrent.CountDownLatch</node>
+    <node x="506.0" y="485.0">java.util.concurrent.CountDownLatch.Sync</node>
+    <node x="684.0" y="129.0">java.util.concurrent.Semaphore.FairSync</node>
+    <node x="268.0" y="390.0">java.util.concurrent.locks.ReentrantReadWriteLock.Sync</node>
+    <node x="425.0" y="0.0">java.util.concurrent.Semaphore.NonfairSync</node>
+    <node x="537.0" y="131.0">java.util.concurrent.Semaphore.Sync</node>
+    <node x="653.0" y="522.0">java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.ReentrantLock" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.CountDownLatch.Sync" target="java.util.concurrent.CountDownLatch" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.Sync" target="java.util.concurrent.Semaphore" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.NonfairSync" target="java.util.concurrent.Semaphore" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.FairSync" target="java.util.concurrent.Semaphore" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.NonfairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync.ThreadLocalHoldCounter" target="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.Worker" target="java.util.concurrent.locks.AbstractQueuedSynchronizer" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.NonfairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock.Sync" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.FairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" target="java.util.concurrent.locks.ReentrantReadWriteLock" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.FairSync" target="java.util.concurrent.Semaphore.Sync" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.Worker" target="java.util.concurrent.ThreadPoolExecutor" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock" relationship="INNER_CLASS">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.NonfairSync" target="java.util.concurrent.Semaphore.Sync" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.FairSync" target="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock.Sync" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.concurrent.CountDownLatch.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9563380281690141" showDependencies="false" x="243.00858369098722" y="216.86156111929307" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
