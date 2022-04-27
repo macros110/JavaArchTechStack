@@ -15,7 +15,7 @@
         <module>juc</module>
         <module>pattern</module>
         <module>dsa</module>
-        <module>j2se</module>
+        <module>javase</module>
     </modules>
 
     <properties>

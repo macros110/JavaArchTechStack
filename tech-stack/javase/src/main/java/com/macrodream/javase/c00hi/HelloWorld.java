@@ -1,4 +1,4 @@
-package com.macrodream.j2se.c00_hi;
+package com.macrodream.javase.c00hi;
 
 /**
  * @author Macros.Zhang
