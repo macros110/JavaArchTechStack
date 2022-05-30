@@ -16,6 +16,7 @@
         <module>pattern</module>
         <module>dsa</module>
         <module>javase</module>
+        <module>spring-annotation</module>
     </modules>
 
     <properties>
