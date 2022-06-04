@@ -17,11 +17,21 @@ import java.util.Map;
 public class IocTest {
     AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(MainConfig2.class);
     @Test
+    void testImport() {
+        printBeans(ctx);
+    }
+
+    private void printBeans(AnnotationConfigApplicationContext ctx) {
+        String[] names = ctx.getBeanDefinitionNames();
+        Arrays.asList(names).stream().forEach(System.out::println);
+    }
+    @Test
     void test03() {
         String[] namesForType = ctx.getBeanNamesForType(Person.class);
         Arrays.asList(namesForType).stream().forEach(System.out::println);
         ConfigurableEnvironment environment = ctx.getEnvironment();
-        //动态获取操作系统 Windows 10
+        //动态获取操作系统
+        // Windows 10
         String property = environment.getProperty("os.name");
         System.out.println(property);
         Map<String, Person> persons = ctx.getBeansOfType(Person.class);
