@@ -1,8 +1,9 @@
 package com.macrodream.config;
 
 import com.macrodream.bean.Person;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import com.macrodream.service.BookService;
+import org.springframework.context.annotation.*;
+import org.springframework.stereotype.Controller;
 
 /**
  * @author Macros.Zhang
@@ -10,6 +11,44 @@ import org.springframework.context.annotation.Configuration;
  */
 /*配置类=配置文件*/
 @Configuration /*告诉Spring这是一个配置类*/
+/**
+ * @ComponentScan  包扫描代替bean context:component-scan
+ *      value:指定要扫描的包
+ *      excludeFilters = Filter[]: 指定扫描的时候按照什么规则排除那些组件
+ *      includeFilters = Filter[]: 指定扫描的时候只需要包含哪些组件
+ *      FilterType.ANNOTATION: 按照注解
+ *      FilterType.ASSIGNABLE_TYPE: 按照给定的类型
+ *      FilterType.ASPECTJ: 使用ASPECTJ表达式
+ *      FilterType.REGEX: 使用正则指定
+ *      FilterType.CUSTOM: 实现TypeFilter接口自定义规则
+ * @ComponentScans
+ *      value = ComponentScan[]
+ */
+/*
+@ComponentScan(
+        value = "com.macrodream",
+        //excludeFilters = {
+        //    @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class})
+        //},
+        includeFilters = {
+                @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class})
+        },
+        useDefaultFilters = false
+)*/
+@ComponentScans(value = {
+        @ComponentScan(
+                value = "com.macrodream",
+                //excludeFilters = {
+                //    @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class})
+                //},
+                includeFilters = {
+                        //@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class}),
+                        //@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {BookService.class}),
+                        @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})
+                },
+                useDefaultFilters = false
+        )
+})
 public class MainConfig {
 
     /**
