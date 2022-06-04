@@ -5,6 +5,7 @@ import com.macrodream.bean.Color;
 import com.macrodream.bean.Person;
 import com.macrodream.condition.LinuxCondition;
 import com.macrodream.condition.WindowsCondition;
+import com.macrodream.selector.MyImportSelector;
 import org.springframework.context.annotation.*;
 
 /**
@@ -22,7 +23,8 @@ import org.springframework.context.annotation.*;
  *      可以导入Class数组{}
  */
 //@Import(Color.class)
-@Import({Color.class, Blue.class})
+//@Import({Color.class, Blue.class})
+@Import({Color.class, Blue.class, MyImportSelector.class})
 public class MainConfig2 {
     /**
      * 默认是单实例的
@@ -77,5 +79,7 @@ public class MainConfig2 {
      *      1 包扫描+组件标注注解(@Controller/@Service/@Repository/@Component)
      *      2 @Bean[导入的第三方包里面的组件]
      *      3 @Import[快速给容器导入一个组件]
+     *          1) @Import(要导入到容器的组件) ，容器中会主动注册这个组件，id默认全类名
+     *          2) ImportSelector：返回需要导入的组件的全类名数组
      */
 }

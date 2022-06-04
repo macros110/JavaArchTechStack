@@ -1,6 +1,7 @@
 package com.macrodream.test;
 
 import com.macrodream.bean.Person;
+import com.macrodream.bean.Red;
 import com.macrodream.config.MainConfig;
 import com.macrodream.config.MainConfig2;
 import org.junit.jupiter.api.Test;
@@ -19,6 +20,8 @@ public class IocTest {
     @Test
     void testImport() {
         printBeans(ctx);
+        Red red = ctx.getBean(Red.class);
+        System.out.println(red);
     }
 
     private void printBeans(AnnotationConfigApplicationContext ctx) {
