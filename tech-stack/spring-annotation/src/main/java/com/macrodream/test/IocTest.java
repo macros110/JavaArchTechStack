@@ -20,7 +20,7 @@ public class IocTest {
         System.out.println("ioc容器创建对象....");
         Object bean = ctx.getBean("person");
         Object bean2 = ctx.getBean("person");
-//        System.out.println(bean == bean2);
+        System.out.println(bean == bean2);
 
     }
     @Test

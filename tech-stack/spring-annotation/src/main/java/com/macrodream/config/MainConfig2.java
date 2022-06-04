@@ -3,6 +3,7 @@ package com.macrodream.config;
 import com.macrodream.bean.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 
 /**
@@ -28,9 +29,14 @@ public class MainConfig2 {
      *      以后每次获取就是直接从容器(map.get())去拿
      * request  同一次请求创建的一个实例
      * session  同一个session创建一个实例
+     *
+     * @Lazy 懒加载：
+     *      单实例bean 默认在容器启动时候创建对象
+     *      懒加载 容器启动不创建对象，第一次使用(获取)bean创建对象，并初始化
      */
     //@Scope
-    @Scope("prototype")
+    //@Scope("prototype")
+    @Lazy
     @Bean("person")
     public Person person() {
         System.out.println("给容器中添加Person....");
