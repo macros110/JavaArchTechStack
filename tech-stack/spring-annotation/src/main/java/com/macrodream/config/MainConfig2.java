@@ -1,15 +1,19 @@
 package com.macrodream.config;
 
 import com.macrodream.bean.Person;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Scope;
+import com.macrodream.condition.LinuxCondition;
+import com.macrodream.condition.WindowsCondition;
+import org.springframework.context.annotation.*;
 
 /**
  * @author Macros.Zhang
  * @date 6/4/2022 17:19
  */
+
+/**
+ * 当满足当前条件，这个类中配置所有bean注册才能生效
+ */
+@Conditional(WindowsCondition.class)
 @Configuration
 public class MainConfig2 {
     /**
@@ -41,5 +45,22 @@ public class MainConfig2 {
     public Person person() {
         System.out.println("给容器中添加Person....");
         return new Person("张三", 25);
+    }
+
+    /**
+     * @Conditional({Condition})   按照一定的条件进行判断，满足条件给容器中注册bean
+     *      可以放类上，也可以放方法上
+     *      如果系统是windows，给容器注册("bill")
+     *      如果是linux系统，给容器注册("linus")
+     */
+    //@Conditional(WindowsCondition.class)
+    @Bean("bill")
+    public Person person01() {
+        return new Person("Bill Gates", 62);
+    }
+    @Conditional(LinuxCondition.class)
+    @Bean("linus")
+    public Person person02() {
+        return new Person("linus", 48);
     }
 }
