@@ -25,6 +25,18 @@ import org.springframework.context.annotation.Scope;
  *          单实例 容器关闭的时候
  *          多实例 容器不会管理这个bean，容器不会调用销毁方法
  *
+ *      遍历得到容器中所有BeanPostProcessor；挨个执行beforeInitialization，
+ *          一旦返回null，跳出for循环，不会执行后面的afterInitialization
+ *
+ *      BeanPostProcessor原理
+ *      populateBean(beanName, mbd, instanceWrapper); 给bean进行属性赋值
+ * 	    initializeBean {
+ *          applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
+ *          invokeInitMethods(beanName, wrappedBean, mbd); 执行初始化
+ *          applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);
+ *      }
+ *
+ *
  *      1 指定初始化和销毁方法
  *          通过@Bean 指定init-method和destroy-method
  *      2 通过让Bean实现InitializingBean(定义初始化逻辑)、
