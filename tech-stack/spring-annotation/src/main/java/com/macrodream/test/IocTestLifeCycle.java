@@ -19,4 +19,9 @@ public class IocTestLifeCycle {
         // 关闭容器
         ctx.close();
     }
+    @Test
+    void test02() {
+        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(MainConfigOfLifeCycle.class);
+        ctx.close();
+    }
 }

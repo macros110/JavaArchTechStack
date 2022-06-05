@@ -1,7 +1,9 @@
 package com.macrodream.config;
 
 import com.macrodream.bean.Car;
+import com.macrodream.bean.Cat;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
@@ -23,8 +25,10 @@ import org.springframework.context.annotation.Scope;
  *
  *      1 指定初始化和销毁方法
  *          通过@Bean 指定init-method和destroy-method
- *      2
+ *      2 通过让Bean实现InitializingBean(定义初始化逻辑)、
+ *                      DisposableBean(定义销毁逻辑)
  */
+@ComponentScan("com.macrodream.bean")
 @Configuration
 public class MainConfigOfLifeCycle {
     @Scope("prototype")
