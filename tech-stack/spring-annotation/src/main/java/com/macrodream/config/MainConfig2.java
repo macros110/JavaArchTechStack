@@ -2,6 +2,7 @@ package com.macrodream.config;
 
 import com.macrodream.bean.Blue;
 import com.macrodream.bean.Color;
+import com.macrodream.bean.ColorFactoryBean;
 import com.macrodream.bean.Person;
 import com.macrodream.condition.LinuxCondition;
 import com.macrodream.condition.WindowsCondition;
@@ -83,6 +84,14 @@ public class MainConfig2 {
      *      3 @Import[快速给容器导入一个组件]
      *          1) @Import(要导入到容器的组件) ，容器中会主动注册这个组件，id默认全类名
      *          2) ImportSelector：返回需要导入的组件的全类名数组
-     *          3) ImportBeanDefinitionRegistrar:手工注册Bean
+     *          3) ImportBeanDefinitionRegistrar:手工注册Bean到容器中
+     *      4 使用Spring提供的FactoryBean(工厂Bean)
+     *          1) 默认获取到的是工厂bean调用getObject创建的对象
+     *          2) 要获取工厂Bean本身，需给id前面加一个& (&colorFactoryBean)
      */
+
+    @Bean
+    public ColorFactoryBean colorFactoryBean() {
+        return new ColorFactoryBean();
+    }
 }
