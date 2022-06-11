@@ -1,12 +1,32 @@
 package com.macrodream.bean;
 
+import org.springframework.beans.factory.annotation.Value;
+
 /**
  * @author Macros.Zhang
  * @date 5/30/2022 23:18
  */
 public class Person {
+    /**
+     * 使用@Value赋值
+     *      1.基本数值
+     *      2.可以写SpEL; #{}
+     *      3.可以写${};取出配置文件中的值(在运行环境变量里面的值)
+     */
+    @Value("张三")
     private String name;
+    @Value("#{20-2}")
     private Integer age;
+    @Value("${person.nickName}")
+    private String nickName;
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
 
     public String getName() {
         return name;
@@ -29,9 +49,9 @@ public class Person {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", nickName='" + nickName + '\'' +
                 '}';
     }
-
 
     public Person() {
         super();
