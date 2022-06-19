@@ -1,5 +1,7 @@
 package com.macrodream.config;
 
+import com.macrodream.bean.Ceo;
+import com.macrodream.bean.Limo;
 import com.macrodream.dao.BookDao;
 import org.springframework.context.annotation.*;
 
@@ -28,10 +30,17 @@ import org.springframework.context.annotation.*;
  *      @Inject
  *          需要导入javax.inject的包，和Autowired的功能一样。没有required=false的功能；
  *  @Autowired Spring定义的， @Resource、@Inject都是java规范
- *  AutowiredAnnotationBeanPostProcessor 处理以上注解
+ *  AutowiredAnnotationBeanPostProcessor 解析完成自动装配功能
+ *
+ *  3 @Autowired 构造器、参数、方法、属性；都是从容器中获取参数组件的值
+ *      1) [标注在方法位置]: @Bean+方法参数；参数从容器中获取；默认不写Autowired
+ *      2) [标在构造器上]: 如果组件只有一个参数构造器，这个有参构造器@Autowired可以省略，
+ *          参数位置的组件还是可以自动从容器中获取
+ *      3) 放在参数位置
  */
 @Configuration
-@ComponentScan({"com.macrodream.service", "com.macrodream.dao", "com.macrodream.controller"})
+@ComponentScan({"com.macrodream.service", "com.macrodream.dao",
+        "com.macrodream.controller", "com.macrodream.bean"})
 public class MainConfigOfAutowired {
 
     @Primary
@@ -40,5 +49,17 @@ public class MainConfigOfAutowired {
         BookDao bookDao = new BookDao();
         bookDao.setLabel("2");
         return bookDao;
+    }
+
+    /**
+     * @Bean 标注的方法创建对象的时候，方法参数的值从容器中获取
+     * @param limo
+     * @return
+     */
+    @Bean
+    public Ceo ceo(Limo limo) {
+        Ceo ceo = new Ceo();
+        ceo.setLimo(limo);
+        return ceo;
     }
 }
