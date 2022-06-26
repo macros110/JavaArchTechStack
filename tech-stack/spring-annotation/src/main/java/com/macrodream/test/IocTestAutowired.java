@@ -43,6 +43,8 @@ public class IocTestAutowired {
 
         Ceo ceo = ctx.getBean(Ceo.class);
         System.out.println(ceo);
+
+        System.out.println(ctx);
         ctx.close();
     }
 }
