@@ -24,6 +24,13 @@
             <version>5.2.22.RELEASE</version>
         </dependency>
 
+        <!-- Spring AOP 导入-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.2.22.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
